@@ -106,7 +106,7 @@ def ssc(
 
 def get_ssc(
     *,
-    ssc_dict: dict[str, Union[str, str | bool]],
+    ssc_dict: Optional[dict[str, Union[str, bool]]] = None,
     N: int,
     k: int,
     k_fe: int,
